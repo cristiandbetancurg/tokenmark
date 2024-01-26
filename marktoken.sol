@@ -4,7 +4,7 @@ contract TokenMark {
 
   function tokenMark(uint256 tokenId) public {
     // guardamos el id del token que estamos marcando
-    _thetokensMark[tokenId] = false;
+    _thetokensMark[tokenId] = true;
   }
 
   // Almacenar los identificadores de los tokens marcados
